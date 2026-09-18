@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Hongyi Xu is a PhD student in Statistics at Washington University in St. Louis, working on robust causal learning, mediation under interference, and policy optimization."
+    />
+    <meta name="theme-color" content="#f3f6fb" />
+    <title>Hongyi Xu — Statistics &amp; Causal Learning</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='13' fill='%230b1831'/%3E%3Cpath d='M17 16v32M47 16v32M17 32h30' stroke='%23e9f0ff' stroke-width='6' stroke-linecap='round'/%3E%3Ccircle cx='32' cy='32' r='5' fill='%234f78ff'/%3E%3C/svg%3E"
+    />
+    <script>document.documentElement.classList.add("js");</script>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="monogram" href="#top" aria-label="Hongyi Xu, home">
+        <span>HX</span>
+      </a>
+      <nav>
+        <a href="#research">Research</a>
+        <a href="#work">Current work</a>
+        <a href="#training">Training</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
+        <svg class="sun" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="3.5"></circle>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"></path>
+        </svg>
+        <svg class="moon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M20.2 15.2A8.3 8.3 0 0 1 8.8 3.8 8.4 8.4 0 1 0 20.2 15.2Z"></path>
+        </svg>
+      </button>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">STATISTICS · CAUSAL INFERENCE · DECISION-MAKING</p>
+          <h1 id="hero-title">Hongyi Xu</h1>
+          <p class="hero-role">
+            PhD Student in Statistics<br />
+            Washington University in St. Louis
+          </p>
+          <p class="hero-statement">
+            I develop statistical methods for reliable decisions when populations are
+            <em>heterogeneous</em>, <em>connected</em>, and data are <em>limited</em>.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#research">Explore my research</a>
+            <a
+              class="button secondary"
+              href="https://sds.wustl.edu/"
+              target="_blank"
+              rel="noreferrer"
+            >Department of SDS <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <aside class="thesis-card reveal" aria-label="Research thesis">
+          <div class="card-index">01 / RESEARCH THESIS</div>
+          <p class="thesis-question">
+            How can we learn policies that improve outcomes while remaining robust to
+            heterogeneity, interference, and imperfect models?
+          </p>
+          <div class="pathway" aria-label="Research pathway">
+            <span>Policy</span>
+            <span class="line" aria-hidden="true"></span>
+            <span>Mechanisms</span>
+            <span class="line" aria-hidden="true"></span>
+            <span>Outcomes</span>
+          </div>
+          <div class="card-note">
+            <span>Core lens</span>
+            <strong>Identification → efficiency → decisions</strong>
+          </div>
+        </aside>
+      </section>
+
+      <section class="research section" id="research" aria-labelledby="research-title">
+        <div class="section-heading reveal">
+          <p class="section-number">01</p>
+          <div>
+            <p class="eyebrow">RESEARCH AGENDA</p>
+            <h2 id="research-title">Reliable causal learning for structured populations</h2>
+          </div>
+        </div>
+
+        <div class="research-grid">
+          <article class="research-card reveal">
+            <p class="card-kicker">MECHANISMS</p>
+            <h3>Causal mediation under interference</h3>
+            <p>
+              Identification and efficient estimation of direct, mediated, and spillover
+              effects when one unit’s treatment can change another unit’s outcome.
+            </p>
+            <ul aria-label="Methods">
+              <li>Clustered &amp; network interference</li>
+              <li>Path-specific decomposition</li>
+              <li>Semiparametric efficiency</li>
+            </ul>
+          </article>
+
+          <article class="research-card reveal">
+            <p class="card-kicker">DECISIONS</p>
+            <h3>Robust policy learning</h3>
+            <p>
+              Learning treatment and intervention rules that remain useful under limited
+              overlap, small samples, distributional shifts, and model uncertainty.
+            </p>
+            <ul aria-label="Methods">
+              <li>Offline &amp; online policy learning</li>
+              <li>Heterogeneous treatment effects</li>
+              <li>Optimization under uncertainty</li>
+            </ul>
+          </article>
+
+          <article class="research-card reveal">
+            <p class="card-kicker">ROBUSTNESS</p>
+            <h3>Inference beyond ideal assumptions</h3>
+            <p>
+              Quantifying what the data identify—and what they do not—through sensitivity
+              analysis, partial identification, and modern statistical learning.
+            </p>
+            <ul aria-label="Methods">
+              <li>Sensitivity analysis</li>
+              <li>Partial identification</li>
+              <li>Bayesian &amp; machine learning tools</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="work section" id="work" aria-labelledby="work-title">
+        <div class="section-heading reveal">
+          <p class="section-number">02</p>
+          <div>
+            <p class="eyebrow">CURRENT WORK</p>
+            <h2 id="work-title">From causal pathways to actionable policies</h2>
+          </div>
+        </div>
+
+        <div class="work-list">
+          <article class="work-item reveal">
+            <div class="work-meta">
+              <span>WORKING PROJECT</span>
+              <span>CAUSAL INFERENCE</span>
+            </div>
+            <div class="work-copy">
+              <h3>Causal mediation under clustered interference</h3>
+              <p>
+                A unified framework for separating direct, self-mediated, cross-mediated,
+                and spillover pathways under stochastic treatment policies, with an emphasis
+                on identification and robust estimation.
+              </p>
+            </div>
+            <span class="work-mark" aria-hidden="true">α</span>
+          </article>
+
+          <article class="work-item reveal">
+            <div class="work-meta">
+              <span>RESEARCH DIRECTION</span>
+              <span>POLICY LEARNING</span>
+            </div>
+            <div class="work-copy">
+              <h3>Policy optimization for heterogeneous, interacting populations</h3>
+              <p>
+                Theory and algorithms for choosing interventions when benefits vary across
+                people, outcomes interact through social structure, and the available data
+                do not support fragile assumptions.
+              </p>
+            </div>
+            <span class="work-mark" aria-hidden="true">π</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="training section" id="training" aria-labelledby="training-title">
+        <div class="section-heading reveal">
+          <p class="section-number">03</p>
+          <div>
+            <p class="eyebrow">TRAINING</p>
+            <h2 id="training-title">Statistical theory with a decision-oriented horizon</h2>
+          </div>
+        </div>
+
+        <div class="training-layout">
+          <div class="timeline reveal">
+            <article class="timeline-item">
+              <div class="timeline-year">CURRENT</div>
+              <div>
+                <h3>PhD in Statistics</h3>
+                <p>Washington University in St. Louis</p>
+                <p class="advisor-line">
+                  Advisor: <strong>Chao Cheng</strong><br />
+                  Co-advisor: <strong>Xuming He</strong>
+                </p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <div class="timeline-year">2024</div>
+              <div>
+                <h3>MA in Statistics</h3>
+                <p>Columbia University</p>
+              </div>
+            </article>
+          </div>
+
+          <aside class="methods-panel reveal" aria-labelledby="methods-title">
+            <p class="card-kicker">METHODS &amp; THEMES</p>
+            <h3 id="methods-title">A developing toolkit</h3>
+            <div class="method-tags">
+              <span>Semiparametric inference</span>
+              <span>Causal mediation</span>
+              <span>Interference</span>
+              <span>Policy learning</span>
+              <span>Robust statistics</span>
+              <span>Sensitivity analysis</span>
+              <span>Partial identification</span>
+              <span>Statistical machine learning</span>
+              <span>Network models</span>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Hongyi Xu <span aria-hidden="true">·</span> Statistics &amp; Data Science</p>
+      <p>Built for careful questions and consequential decisions. <span id="year"></span></p>
+    </footer>
+  </body>
+</html>
