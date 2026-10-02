@@ -1,6 +1,6 @@
 # Hongyi Xu — Academic Website
 
-Source for [hongyix99.github.io](https://hongyix99.github.io/).
+Source for [hongyixu-stat.github.io](https://hongyixu-stat.github.io/).
 
 A static academic homepage with a profile sidebar, biography, the current working paper, education, and teaching. Research interests appear only in the biography. The layout follows the compact academic style of [Yicheng Teng's website](https://yicheng-teng.github.io/); the implementation and personal content are original.
 
